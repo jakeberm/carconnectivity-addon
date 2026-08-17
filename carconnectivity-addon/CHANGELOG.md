@@ -1,3 +1,11 @@
+## 0.8.20
+
+### 🛠️ Fixes & Updates
+
+- Added the Volkswagen connector from `jakeberm/CarConnectivity-connector-volkswagen` at commit `4906c58892e67a2c85ffc3574e8c816057a7cbba`, including the merged login-flow fix.
+
+ ---
+
 ## 0.8.19
 
 
@@ -1274,8 +1282,5 @@ No audi connector yet, only in edge
 ## 0.0.1
 
 🎉 **Initial release!** 🚀
-
-
-
 
 
