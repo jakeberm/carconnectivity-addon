@@ -1,8 +1,8 @@
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
-[![GitHub sourcecode](https://img.shields.io/badge/Source-GitHub-green)](https://github.com/Pulpyyyy/carconnectivity-addon/)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/Pulpyyyy/carconnectivity-addon)](https://github.com/Pulpyyyy/carconnectivity-addon/releases/latest)
-[![GitHub issues](https://img.shields.io/github/issues/Pulpyyyy/carconnectivity-addon)](https://github.com/Pulpyyyy/carconnectivity-addon/issues)
+[![GitHub sourcecode](https://img.shields.io/badge/Source-GitHub-green)](https://github.com/jakeberm/carconnectivity-addon/)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/jakeberm/carconnectivity-addon)](https://github.com/jakeberm/carconnectivity-addon/releases/latest)
+[![GitHub issues](https://img.shields.io/github/issues/jakeberm/carconnectivity-addon)](https://github.com/jakeberm/carconnectivity-addon/issues)
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
@@ -15,15 +15,15 @@
 
 # Guides traduits
 
-[![French](https://raw.githubusercontent.com/Pulpyyyy/carconnectivity-addon/refs/heads/main/.github/img/FR.svg)](https://github.com/Pulpyyyy/carconnectivity-addon/blob/main/README.fr.md)
-[![Italian](https://raw.githubusercontent.com/Pulpyyyy/carconnectivity-addon/refs/heads/main/.github/img/IT.svg)](https://github.com/Pulpyyyy/carconnectivity-addon/blob/main/README.it.md)
-[![German](https://raw.githubusercontent.com/Pulpyyyy/carconnectivity-addon/refs/heads/main/.github/img/DE.svg)](https://github.com/Pulpyyyy/carconnectivity-addon/blob/main/README.de.md)
-[![Spanish](https://raw.githubusercontent.com/Pulpyyyy/carconnectivity-addon/refs/heads/main/.github/img/ES.svg)](https://github.com/Pulpyyyy/carconnectivity-addon/blob/main/README.es.md)
-[![Polish](https://raw.githubusercontent.com/Pulpyyyy/carconnectivity-addon/refs/heads/main/.github/img/PL.svg)](https://github.com/Pulpyyyy/carconnectivity-addon/blob/main/README.pl.md)
-[![Portuguese](https://raw.githubusercontent.com/Pulpyyyy/carconnectivity-addon/refs/heads/main/.github/img/PT.svg)](https://github.com/Pulpyyyy/carconnectivity-addon/blob/main/README.pt.md)
-[![Norwegian](https://raw.githubusercontent.com/Pulpyyyy/carconnectivity-addon/refs/heads/main/.github/img/NO.svg)](https://github.com/Pulpyyyy/carconnectivity-addon/blob/main/README.no.md)
-[![Dutch](https://raw.githubusercontent.com/Pulpyyyy/carconnectivity-addon/refs/heads/main/.github/img/NL.svg)](https://github.com/Pulpyyyy/carconnectivity-addon/blob/main/README.nl.md)
-[![English](https://raw.githubusercontent.com/Pulpyyyy/carconnectivity-addon/refs/heads/main/.github/img/US.svg)](https://github.com/Pulpyyyy/carconnectivity-addon/blob/main/README.md)
+[![French](https://raw.githubusercontent.com/jakeberm/carconnectivity-addon/refs/heads/main/.github/img/FR.svg)](https://github.com/jakeberm/carconnectivity-addon/blob/main/README.fr.md)
+[![Italian](https://raw.githubusercontent.com/jakeberm/carconnectivity-addon/refs/heads/main/.github/img/IT.svg)](https://github.com/jakeberm/carconnectivity-addon/blob/main/README.it.md)
+[![German](https://raw.githubusercontent.com/jakeberm/carconnectivity-addon/refs/heads/main/.github/img/DE.svg)](https://github.com/jakeberm/carconnectivity-addon/blob/main/README.de.md)
+[![Spanish](https://raw.githubusercontent.com/jakeberm/carconnectivity-addon/refs/heads/main/.github/img/ES.svg)](https://github.com/jakeberm/carconnectivity-addon/blob/main/README.es.md)
+[![Polish](https://raw.githubusercontent.com/jakeberm/carconnectivity-addon/refs/heads/main/.github/img/PL.svg)](https://github.com/jakeberm/carconnectivity-addon/blob/main/README.pl.md)
+[![Portuguese](https://raw.githubusercontent.com/jakeberm/carconnectivity-addon/refs/heads/main/.github/img/PT.svg)](https://github.com/jakeberm/carconnectivity-addon/blob/main/README.pt.md)
+[![Norwegian](https://raw.githubusercontent.com/jakeberm/carconnectivity-addon/refs/heads/main/.github/img/NO.svg)](https://github.com/jakeberm/carconnectivity-addon/blob/main/README.no.md)
+[![Dutch](https://raw.githubusercontent.com/jakeberm/carconnectivity-addon/refs/heads/main/.github/img/NL.svg)](https://github.com/jakeberm/carconnectivity-addon/blob/main/README.nl.md)
+[![English](https://raw.githubusercontent.com/jakeberm/carconnectivity-addon/refs/heads/main/.github/img/US.svg)](https://github.com/jakeberm/carconnectivity-addon/blob/main/README.md)
 
 
 ## Introduction
@@ -48,10 +48,10 @@ Son travail est également disponible sous forme d'images Docker. Donc si vous u
 
 ## Ajouter le référentiel
 
-[![`Addon Home Assistant`](https://raw.githubusercontent.com/Pulpyyyy/carconnectivity-addon/refs/heads/main/.github/img/addon-ha.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FPulpyyyy%2Fcarconnectivity-addon)
+[![`Addon Home Assistant`](https://raw.githubusercontent.com/jakeberm/carconnectivity-addon/refs/heads/main/.github/img/addon-ha.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FPulpyyyy%2Fcarconnectivity-addon)
 
 
-![image](https://raw.githubusercontent.com/Pulpyyyy/carconnectivity-addon/refs/heads/main/img/mqtt_device.png)
+![image](https://raw.githubusercontent.com/jakeberm/carconnectivity-addon/refs/heads/main/img/mqtt_device.png)
 
 ## Configuration
 
@@ -141,7 +141,7 @@ Le tableau de bord d'origine de `CarConnectivity` peut être activé avec l'inte
 
 - `Login user` / `Login password` *(facultatif)* : laissez l'utilisateur vide (ou `autologin`) pour être connecté automatiquement ; renseignez les deux pour exiger une connexion.
 
-![image](https://raw.githubusercontent.com/Pulpyyyy/carconnectivity-addon/refs/heads/main/img/webui.png)
+![image](https://raw.githubusercontent.com/jakeberm/carconnectivity-addon/refs/heads/main/img/webui.png)
 
 ### 5. Niveau de journalisation
 Définissez la quantité d'informations enregistrées dans les journaux :
