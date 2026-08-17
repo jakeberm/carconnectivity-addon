@@ -7,6 +7,7 @@ ARG BUILD_NAME
 ARG BUILD_VERSION
 ARG AUDI_VERSION
 ARG SKODA_VERSION
+ARG VW_COMMIT
 ARG VWNA_VERSION
 ARG VWEUDATA_VERSION
 ARG RENAULTDACIA_VERSION
@@ -29,6 +30,7 @@ RUN echo "ADDON_VERSION=v${BUILD_VERSION}" >> versions.txt && \
         carconnectivity==${CC_VERSION#v} \
         carconnectivity-connector-skoda==${SKODA_VERSION#v} \
         carconnectivity-connector-audi==${AUDI_VERSION#v} \
+        "carconnectivity-connector-volkswagen @ git+https://github.com/jakeberm/CarConnectivity-connector-volkswagen.git@${VW_COMMIT}" \
         carconnectivity-connector-volkswagen_na==${VWNA_VERSION#v} \
         carconnectivity-connector-vw-eu-data-act==${VWEUDATA_VERSION#v} \
         carconnectivity-connector-renaultdacia==${RENAULTDACIA_VERSION#v} \
@@ -42,6 +44,7 @@ RUN echo "ADDON_VERSION=v${BUILD_VERSION}" >> versions.txt && \
     echo "CARCONNECTIVITY_VERSION=${CC_VERSION}" >> versions.txt && \
     echo "AUDI_VERSION=${AUDI_VERSION}" >> versions.txt && \
     echo "SKODA_VERSION=${SKODA_VERSION}" >> versions.txt && \
+    echo "VW_COMMIT=${VW_COMMIT}" >> versions.txt && \
     echo "VWNA_VERSION=${VWNA_VERSION}" >> versions.txt && \
     echo "VWEUDATA_VERSION=${VWEUDATA_VERSION}" >> versions.txt && \
     echo "RENAULTDACIA_VERSION=${RENAULTDACIA_VERSION}" >> versions.txt && \
