@@ -2,7 +2,7 @@ name: "CarConnectivity Add-on Edge"
 version: 0.8.19
 slug: "carconnectivity-addon-edge"
 description: "⚠️EDGE VERSION⚠️ CarConnectivity Add-on Edge, may be unstable !"
-image: "docker.io/pulpyyyy/carconnectivity-addon-edge-{arch}"
+image: "docker.io/jakeberm/carconnectivity-addon-edge-{arch}"
 panel_icon: "mdi:car-wireless"
 panel_title: "CarConnectivity"
 map:
