@@ -249,7 +249,7 @@ jobs:
       - name: Increment version ${{ matrix.addon }}
         if: ${{ env.CHANGES == 'true' }}
         run: |
-          version=$(grep -E '^version:' "carconnectivity-addon-edge/config.yaml" | awk '{print $2}' | sed 's/"//g')
+          version=$(grep -E '^version:' "${{ matrix.addon }}/config.yaml" | awk '{print $2}' | sed 's/"//g')
           IFS='.' read -r major minor patch <<< "$version"
           patch=$((patch + 1))
           new_version="${major}.${minor}.${patch}"
